@@ -10,7 +10,10 @@ The first source contains the car plates mostly from Netherlands, in order to le
 
 A Flask web app is made and allows user to load a batch pf images. The batch will then be processed to give the user the cropped plate images.
 
+To use the code, first create a folder called 'detection' under 'yolov5-master', in it create an empty folder called 'original' to save the processed original images. Having done so, run main.py and simply upload images in the web interafce. 
+
 To-do list:
 1. Apply OCR to extract the numbers and characters of the car plate.
-2. Perfect the Flask app to show better interface. Display the original iamges, cropped images, and the extracted number plate contents in the web.
-3. Replace OCR with more accurate techniques, such as custom CNN-LSTM model to identify the numbers and characters.
+2. Add Attention to the backbone of yolo.
+3. Perfect the Flask app to show better interface. Display the original iamges, cropped images, and the extracted number plate contents in the web.
+4. Replace OCR with more accurate techniques, such as custom CNN-LSTM model to identify the numbers and characters.
