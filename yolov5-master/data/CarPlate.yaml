@@ -1,0 +1,5 @@
+train: /content/drive/MyDrive/yolov5-master/data/mydata2/images/train
+val: /content/drive/MyDrive/yolov5-master/data/mydata2/images/val
+
+nc: 1
+names: ['plate']
